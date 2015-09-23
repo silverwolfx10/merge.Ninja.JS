@@ -1,0 +1,25 @@
+{
+  "name": "merge.Ninja.JS",
+  "version": "0.0.0",
+  "authors": [
+    "Cleber de Moraes Goncalves <cleber.programmer@hotmail.com>"
+  ],
+  "description": "Copia as propriedades enumeravies de b para a e retorna a, se b tem uma propriedade de mesmo nome, a propriedade sera deixada intacta. Esta modulo nao manipula metodos getter e setter nem copia atributos",
+  "main": "merge.js",
+  "keywords": [
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/Bibizzy/merge.Ninja.JS",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "Ninja.JS": "*",
+    "curry.Ninja.JS": "*"
+  }
+}

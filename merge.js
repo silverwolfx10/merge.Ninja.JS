@@ -31,7 +31,7 @@ this.Ninja.module('$merge', ['$curry'], function ($curry) {
    *
    */
   function merge(a, b) {
-    for (key in b) if (!(a.hasOwnProperty[key])) a[key] = b[key];
+    for (var key in b) if (!(a.hasOwnProperty[key])) a[key] = b[key];
     return a;
   }
 
